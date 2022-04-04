@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushrey's Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(243, 249, 253);
+        }
+
+        body {
+            background: url(background.jpg);
+            background-size: 100%;
+            z-index: -1;
+        }
+
+        #navbar {
+            display: block;
+            align-items: center;
+            height: 60px;
+
+        }
+
+        /* ul{
+            display: flex;  
+            float: right;
+            justify-content: right;
+        } */
+        .navleft {
+            display: flex;
+            float: left;
+
+        }
+
+        .navright {
+            display: flex;
+            float: right;
+
+        }
+
+        .item {
+            list-style: none;
+            margin: 20px;
+            font-size: 20px;
+            /* float: right; */
+
+        }
+
+        #navbar a {
+            text-decoration: none;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+
+        }
+
+        #navbar a#active {
+            font-size: 24px;
+            color: #bdd5ea;
+            margin: 18px;
+        }
+
+        #navbar a:hover {
+            font-size: 24px;
+            color: #bdd5ea;
+            margin: 18px;
+        }
+
+        .intro {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+            justify-content: center;
+            clear: both;
+            width: 600px;
+            height: 230px;
+            /* font-size: 2rem; */
+            border: 3px #639FAB;
+            border-style: double;
+            border-radius: 10px;
+            align-items: center;
+
+        }
+
+        div.mail {
+
+            width: 100%;
+            display: block;
+            font-size: 2rem;
+            padding-left: 10px;
+            /* border: 2px yellow;
+            border-style: dashed; */
+        }
+
+        img {
+            height: 90px;
+            width: 90px;
+
+
+        }
+
+        .main {
+
+            display: block;
+            margin-top: 15px;
+            /* height: 100px;
+            border: 2px yellow; */
+            /* border-style: dashed; */
+            float: left;
+            /* width: fit-content; */
+            text-align: center;
+
+        }
+
+        #image {
+            padding-left: 9%;
+        }
+
+        #email {
+            padding-top: 20px;
+            padding-left: 15px;
+            font-size: 2.5rem;
+            height: 90px;
+
+        }
+
+        #email a {
+            /* font-size: 2.2rem; */
+            text-decoration: none;
+            color: #C7CCDB;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+        }
+        #email a:hover {
+            padding-top: 25px;
+            /* padding-left: 15px; */
+            color: #BBCDE5;
+        }
+        #email:hover {
+            padding-top: 18px;
+            padding-left: 15px;
+            height: 92px;
+            font-size: 2.7rem;
+
+        }
+
+        .content {
+            clear: both;
+            color: #a297b1;
+            padding-left: 10px;
+        }
+    </style>
+
+
+
+    <nav id="navbar">
+        <div class="navleft">
+            <a href="#" class="item">Anushrey's Portfolio</a>
+        </div>
+        <div class="navright">
+            <a href="index.html" class="item">Home</a>
+            <a href="Mail.html" class="item">Mail</a>
+            <a href="social.html" class="item">Social</a>
+            <a href="#" class="item" id="active">GitHub</a>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <div class="intro">
+        <div class="mail">
+            Checkout my GitHub...
+        </div>
+        <div class="main" id="image">
+            <img src="git.png" alt="Git Logo">
+        </div>
+        <div class="main" id="email">
+            <a href="https://github.com/anushrxy">/anushrxy</a>
+        </div>
+        <div class="content">Check out my GitHub, You'll find my pevious projects there. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Tempora animi doloribus id sequi, cumque quia omnis optio.</div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

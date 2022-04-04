@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushrey's Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(243, 249, 253);
+        }
+
+        body {
+            background: url(background.jpg);
+            background-size: 100%;
+            z-index: -1;
+        }
+
+        #navbar {
+            display: block;
+            align-items: center;
+            height: 60px;
+
+        }
+
+        /* ul{
+            display: flex;  
+            float: right;
+            justify-content: right;
+        } */
+        .navleft {
+            display: flex;
+            float: left;
+
+        }
+
+        .navright {
+            display: flex;
+            float: right;
+
+        }
+
+        .item {
+            list-style: none;
+            margin: 20px;
+            font-size: 20px;
+            /* float: right; */
+
+        }
+
+        #navbar a {
+            text-decoration: none;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+
+        }
+
+        #navbar a#active {
+            font-size: 24px;
+            color: #bdd5ea;
+            margin: 18px;
+        }
+
+        #navbar a:hover {
+            font-size: 24px;
+            color: #bdd5ea;
+            margin: 18px;
+        }
+
+        .intro {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            justify-content: center;
+            clear: both;
+            width: 600px;
+            height: 300px;
+            font-size: 2rem;
+            border: 3px #639FAB;
+            border-style: double;
+            border-radius: 10px;
+            align-items: center;
+
+        }
+        .initial{
+            padding-left: 15px;
+        }
+
+        .profile{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 140px;
+            font-size: 1.9rem;
+        }
+        .profile a{
+            text-decoration: none;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+        }
+        .profile a:hover{
+            font-size: 2.5rem;
+            color: #bdd5ea;
+        }
+        .img{
+            display: flex;
+            height: 60px;
+            width: 60px;
+        }
+        img{
+            border-radius: 50%;
+        }
+        .handle{
+            display: flex;
+            font-size: 2.4rem;
+            margin-top: 5px;
+            margin-left: 15px;
+        }
+       
+    </style>
+
+
+
+    <nav id="navbar">
+        <div class="navleft">
+            <a href="#" class="item">Anushrey's Portfolio</a>
+        </div>
+        <div class="navright">
+            <a href="index.html" class="item">Home</a>
+            <a href="Mail.html" class="item">Mail</a>
+            <a href="#" class="item" id="active">Social</a>
+            <a href="git.html" class="item">GitHub</a>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <div class="intro">
+        <div class="initial">
+            Checkout my Social Profiles...
+        </div>
+        <div class="profile">
+            <div class="img">
+                <img src="instagram.png" alt="Instagram Logo">
+            </div>
+            <div class="handle">
+                <a href="https://instagram.com/anushrxy" target="_blank">Instagram</a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="img">
+                <img src="twitter.png" alt="Twitter Logo">
+            </div>
+            <div class="handle">
+                <a href="https://twitter.com/anushrxy" target="_blank">Twitter</a>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="img">
+                <img src="telegram.png" alt="Telegram Logo">
+            </div>
+            <div class="handle">
+                <a href="https://t.me/anushrxy" target="_blank">Telegram</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

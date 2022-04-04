@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushrey's Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(243, 249, 253);
+        }
+
+        body {
+            background: url(background.jpg);
+            background-size: 100%;
+            z-index: -1;
+        }
+
+        #navbar {
+            display: block;
+            align-items: center;
+            height: 60px;
+
+        }
+
+        /* ul{
+            display: flex;  
+            float: right;
+            justify-content: right;
+        } */
+        .navleft {
+            display: flex;
+            float: left;
+
+        }
+
+        .navright {
+            display: flex;
+            float: right;
+
+        }
+
+        .item {
+            list-style: none;
+            margin: 20px;
+            font-size: 20px;
+            /* float: right; */
+
+        }
+
+        #navbar a {
+            text-decoration: none;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+
+        }
+
+        #navbar a#active {
+            font-size: 24px;
+            color: #bdd5ea;
+            margin: 18px;
+        }
+
+        #navbar a:hover {
+            font-size: 24px;
+            color: #bdd5ea;
+            margin: 18px;
+        }
+
+        .intro {
+            display: block;
+            margin-left: 100px;
+            margin-top: 180px;
+            float: left;
+            clear: both;
+            width: 600px;
+            height: 200px;
+            font-size: 2rem;
+            /* border: 3px red;
+            border-style: double; */
+            border-radius: 10px;
+
+        }
+
+        #Name {
+            font-size: 55px;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+        }
+
+        p#Name:hover {
+            color: #CEB3AB;
+        }
+
+        .img {
+            float: right;
+            margin-right: 200px;
+            margin-top: 200px;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+        }
+
+        .content {
+            color: #a297b1;
+        }
+
+        img {
+            border-radius: 50%;
+            border: 4px yellow;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+        }
+
+        img:hover {
+            box-shadow: 0 0 2px 10px rgba(185, 185, 185, 0.8);
+            width: 180px;
+            height: 180px;
+
+        }
+
+        .img:hover {
+            margin-right: 190px;
+            margin-top: 190px;
+        }
+    </style>
+
+
+
+    <nav id="navbar">
+        <div class="navleft">
+            <a href="#" class="item">Anushrey's Portfolio</a>
+        </div>
+        <div class="navright">
+            <a href="#" class="item" id="active">Home</a>
+            <a href="Mail.html" class="item">Mail</a>
+            <a href="social.html" class="item">Social</a>
+            <a href="git.html" class="item">GitHub</a>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <div class="intro">
+        <p>
+            Hey,
+        </p>
+        <p id="Name">
+            I am Anushrey Jain.
+        </p>
+        <p class="content">
+            A 19 year old,
+            <br>Learning Web Development.
+        </p>
+
+    </div>
+    <div class="img">
+        <img src="me.jpg" alt="My Image was here." height="160px" width="160px">
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
